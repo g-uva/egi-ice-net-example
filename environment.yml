@@ -33,6 +33,7 @@ dependencies:
   - entrypoints=0.4=pyhd8ed1ab_0
   - exceptiongroup=1.2.0=pyhd8ed1ab_2
   - executing=2.0.1=pyhd8ed1ab_0
+  - findlibs=0.0.5=pyhd8ed1ab_0
   - fqdn=1.5.1=pyhd8ed1ab_0
   - freeglut=3.2.2=hac7e632_2
   - h11=0.14.0=pyhd8ed1ab_0
@@ -72,6 +73,8 @@ dependencies:
   - krb5=1.21.2=h659d440_0
   - ld_impl_linux-64=2.38=h1181459_1
   - libaec=1.1.2=h59595ed_1
+  - libblas=3.9.0=21_linux64_openblas
+  - libcblas=3.9.0=21_linux64_openblas
   - libcurl=8.5.0=hca28451_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=hd590300_2
@@ -83,8 +86,10 @@ dependencies:
   - libgomp=13.2.0=h807b86a_5
   - libiconv=1.17=hd590300_2
   - libjpeg-turbo=3.0.0=hd590300_1
+  - liblapack=3.9.0=21_linux64_openblas
   - libnetcdf=4.9.2=nompi_h9612171_113
   - libnghttp2=1.58.0=h47da74e_1
+  - libopenblas=0.3.26=pthreads_h413a1c8_0
   - libpng=1.6.43=h2797004_0
   - libsodium=1.0.18=h36c2ea0_1
   - libssh2=1.11.0=h0841786_0
@@ -125,6 +130,7 @@ dependencies:
   - pygments=2.17.2=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.11.7=h955ad1f_0
+  - python-eccodes=1.7.0=py311h1f0f07a_0
   - python-fastjsonschema=2.19.1=pyhd8ed1ab_0
   - python-json-logger=2.0.7=pyhd8ed1ab_0
   - python_abi=3.11=2_cp311
@@ -205,7 +211,6 @@ dependencies:
       - docopt==0.6.2
       - ecmwf-api-client==1.6.3
       - fasteners==0.19
-      - findlibs==0.0.5
       - flatbuffers==23.5.26
       - fonttools==4.49.0
       - fsspec==2024.2.0
