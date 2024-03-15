@@ -129,8 +129,7 @@ dmypy.json
 .pyre/
 
 # Notebook outputs
-_sicfile/
-data/masks/
+data/masks/south/masks
 logs/
 network_datasets/
 notebook/
