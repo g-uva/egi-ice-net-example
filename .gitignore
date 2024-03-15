@@ -130,7 +130,7 @@ dmypy.json
 
 # Notebook outputs
 _sicfile/
-data/
+data/masks/
 logs/
 network_datasets/
 notebook/
