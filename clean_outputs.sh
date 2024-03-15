@@ -2,8 +2,6 @@
 
 echo "Cleaning notebook outputs"
 
-rm -rv _sicfile/
-rm -rv data/
 rm -rv logs/
 rm -rv network_datasets/
 rm -rv notebook/
