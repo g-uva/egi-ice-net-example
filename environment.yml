@@ -200,7 +200,7 @@ dependencies:
       - fsspec==2024.2.0
       - h5netcdf==1.3.0
       - ibicus==1.1.1
-      - icenet==0.2.7
+      - git+https://github.com/icenet-ai/icenet@3654dc4954eca6d28e16b4876bd6538abd1f0c06
       - isodate==0.6.1
       - jinja2==3.1.3
       - joblib==1.3.2
