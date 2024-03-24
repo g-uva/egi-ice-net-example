@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Notebook outputs
+data/masks/south/masks
+logs/
+network_datasets/
+notebook/
+processed/
+results/
+loader.*.json
+dataset_config.*.json
+predict_dates.csv
