@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - hdf4=4.2.15
   - hdf5=1.14.3
   - pip
   - python<3.11.8
