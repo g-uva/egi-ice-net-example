@@ -6,7 +6,7 @@ dependencies:
   - netCDF4=1.6.0
   - pip
   - python<3.11.8
+  - tensorflow=2.13.1
   - pip:
       - icenet @ git+https://github.com/icenet-ai/icenet@3654dc4954eca6d28e16b4876bd6538abd1f0c06
-      - tensorflow<=2.13.1
       - ecmwflibs==0.6.3
