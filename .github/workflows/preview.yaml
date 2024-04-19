@@ -3,7 +3,7 @@ name: Preview
 on:
   workflow_run:
     workflows: ["Build and push container image"]
-    branches: [postprint]
+    branches: [preparation, postprint]
     types: [completed]
       
 # This job installs dependencies, build the jupyter notebook, and pushes it to `preview`, a new `branch`
