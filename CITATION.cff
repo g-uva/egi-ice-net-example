@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+title: icenet-edsbook
+message: >-
+  A Jupyter notebook demonstrator of the IceNet python
+  library for sea-ice forecasting, going from data download
+  to forecast generation.
+
+  If you use this software, please cite it as below.
+type: software
+authors:
+  - given-names: James
+    family-names: Byrne
+    email: jambyr@bas.ac.uk
+    affiliation: British Antarctic Survey
+    orcid: "https://orcid.org/0000-0003-3731-2377"
+  - given-names: Bryn
+    family-names: Ubald
+    email: bryald@bas.ac.uk
+    affiliation: British Antarctic Survey
+    orcid: "https://orcid.org/0000-0002-0206-7140"
+identifiers:
+  - type: doi
+    value: 10.1038/s41467-021-25257-4
+    description: Original paper on IceNet
+repository-code: >-
+  https://github.com/eds-book-gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b
+url: "https://icenet.ai/"
+repository: "https://github.com/icenet-ai/icenet"
+abstract: >-
+  IceNet is a python library that provides the ability to
+  download, process, train and predict from end to end.
+  Users can interact with IceNet either via the python
+  interface or via a set of command-line interfaces (CLI)
+  which provide a high-level interface that covers the above
+  abilities.
+
+
+  This project demonstrates the use of the python library
+  API for forecasting sea ice for a reduced dataset to
+  demonstrate the end-to-end capabilities of IceNet, from
+  source data download to forecast generation.
+keywords:
+  - sea-ice
+  - forecast
+  - cryosphere
+  - antarctic
+  - arctic
+  - ice
+  - machine learning
+  - unet
+  - deep learning
+license: MIT
+commit: TBC
+version: TBC
+date-released: "2024-05-02"
