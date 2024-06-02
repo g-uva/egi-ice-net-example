@@ -12,4 +12,7 @@ dependencies:
   - pip:
       - ecmwflibs
       - icenet @ git+https://github.com/icenet-ai/icenet@3654dc4954eca6d28e16b4876bd6538abd1f0c06
+      - ipykernel
+      - jupyterlab
+      - nbdime
       - notebook
