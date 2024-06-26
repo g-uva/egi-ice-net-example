@@ -16,4 +16,4 @@ dependencies:
   - "tensorflow<2.16=cpu*"
   - pip:
       - ecmwflibs
-      - icenet @ git+https://github.com/icenet-ai/icenet@32558347fa8459a4414b5f30af16b04540ba9101
+      - icenet @ git+https://github.com/icenet-ai/icenet@0bac48fbc6447d937498b2c7240a2bd946430700
