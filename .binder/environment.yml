@@ -4,16 +4,16 @@ channels:
   - nodefaults
 dependencies:
   - cf-units
+  - copernicusmarine
+  - ipykernel
+  - jupyterlab
   - libnetcdf
+  - nbdime
   - netcdf4=1.6.0
+  - notebook
   - pip
   - python<3.12
   - "tensorflow<2.16=cpu*"
   - pip:
       - ecmwflibs
       - icenet @ git+https://github.com/icenet-ai/icenet@32558347fa8459a4414b5f30af16b04540ba9101
-      - ipykernel
-      - jupyterlab
-      - nbdime
-      - notebook
-      - copernicusmarine
