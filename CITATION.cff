@@ -45,6 +45,6 @@ keywords:
   - unet
   - deep learning
 license: MIT
-commit: TBC
-version: TBC
-date-released: "2024-05-02"
+commit: "4c541eb"
+version: "1.0.0"
+date-released: "2024-06-26"
