@@ -1,13 +1,19 @@
 name: 67a1e320-7c47-4ea9-8df8-e868326bc90b
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
+  - cf-units
+  - copernicusmarine
+  - ipykernel
+  - jupyterlab
   - libnetcdf
+  - nbdime
+  - netcdf4=1.6.0
+  - notebook
   - pip
   - python<3.12
   - "tensorflow<2.16=cpu*"
   - pip:
-      - icenet @ git+https://github.com/icenet-ai/icenet@3654dc4954eca6d28e16b4876bd6538abd1f0c06
       - ecmwflibs
-      - netCDF4==1.6.0
+      - icenet @ git+https://github.com/icenet-ai/icenet@0bac48fbc6447d937498b2c7240a2bd946430700
