@@ -13,6 +13,8 @@ authors:
     email: bryald@bas.ac.uk
     affiliation: British Antarctic Survey
     orcid: "https://orcid.org/0000-0002-0206-7140"
+  - name: "This EDS book notebook contributors"
+    website: "https://github.com/eds-book-gallery/67a1e320-7c47-4ea9-8df8-e868326bc90b/graphs/contributors"
 version: v1.0.0
 identifiers:
   - type: doi
