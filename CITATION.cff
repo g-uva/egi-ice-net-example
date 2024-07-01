@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: icenet-edsbook
+title: "Sea ice forecasting using the IceNet library (Jupyter Notebook) published in the Environmental Data Science book"
 message: "If you use this software, please cite it as below."
 type: software
 authors:
@@ -13,6 +13,7 @@ authors:
     email: bryald@bas.ac.uk
     affiliation: British Antarctic Survey
     orcid: "https://orcid.org/0000-0002-0206-7140"
+version: v1.0.0
 identifiers:
   - type: doi
     value: 10.5281/zenodo.12613298
@@ -48,4 +49,3 @@ keywords:
   - unet
   - deep learning
 license: MIT
-version: "1.0.0"
