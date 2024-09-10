@@ -7,10 +7,11 @@ dependencies:
   - copernicusmarine
   - ipykernel
   - jupyterlab
+  - notebook=6
+  - jupyter_server=1
   - libnetcdf
   - nbdime
   - netcdf4=1.6.0
-  - notebook
   - pip
   - python<3.12
   - "tensorflow<2.16=cpu*"
