@@ -1,14 +1,11 @@
 # Python version <3.12 is implied (you must manage this with your virtual environment)
 
 # Core packages
-#ipykernel
-#jupyterlab
-#notebook==6.*
-#jupyter_server==1.*
 nbdime
 netCDF4==1.6.0
 tensorflow-cpu<2.16
 numpy==1.25
+numba>=0.58
 
 # Git libs
 ecmwflibs
