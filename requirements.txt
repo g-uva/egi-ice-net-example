@@ -1,0 +1,15 @@
+# Python version <3.12 is implied (you must manage this with your virtual environment)
+
+# Core packages
+#ipykernel
+#jupyterlab
+#notebook==6.*
+#jupyter_server==1.*
+nbdime
+netCDF4==1.6.0
+tensorflow-cpu<2.16
+numpy==1.25
+
+# Git libs
+ecmwflibs
+icenet @ git+https://github.com/icenet-ai/icenet@0bac48fbc6447d937498b2c7240a2bd946430700
