@@ -10,3 +10,12 @@ numba>=0.58
 # Git libs
 ecmwflibs
 icenet @ git+https://github.com/icenet-ai/icenet@0bac48fbc6447d937498b2c7240a2bd946430700
+
+cf-units
+copernicusmarine
+ipykernel
+
+# Note @goncalo: not really sure if this is needed.
+#jupyterlab
+#notebook==6.*
+#jupyter-server==1.*
